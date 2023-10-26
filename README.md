@@ -39,7 +39,7 @@
 
 ## 🔗 Integration with Hello Rails Front-End <a name="integration-with-hello-rails-front-end"></a>
 
-This back-end app is meant to work with the [Hello Rails Front-End](https://github.com/grauJavier/hello-react-front-end) project. The back-end gives a special service, and the front-end asks for random greetings from `http://localhost:3001/hello/index`. Make sure the back-end server is on before you use this app.
+This back-end app is meant to work with the [Hello Rails Front-End](https://github.com/grauJavier/hello-react-front-end) project. The back-end gives a special service, and the front-end asks for random greetings from `http://localhost:3000/hello/index`. Make sure the back-end server is on before you use this app.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +93,7 @@ To run the project, execute the following command:
 rails server
 ```
 
-The API will be accessible at `http://localhost:3001/hello/index`.
+The API will be accessible at `http://localhost:3000/hello/index`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
