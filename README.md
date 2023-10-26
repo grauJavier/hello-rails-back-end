@@ -9,33 +9,71 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [ About the Project](#about-project)
-- [🛠 Project Requirements](#project-requirements)
-  - [📖 Hello Rails Front-End](#integration-with-hello-rails-front-end)
+- [📖 Hello Rails Back-End](#integration-with-hello-rails-back-end)
+- [🛠 Built With](#-built-with)
+    - [Technologies](#technologies)
+    - [Key Features](#key-features)
+  - [🏁 Project Requirements](#project-requirements)
   - [💻 API Endpoints](#api-endpoints)
   - [🚀 Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Run the Project](#run-the-project)
   - [👥 Author](#authors)
-  - [🔭 Issues](#issues)
+  - [🔭 Future Features](#-future-features)
   - [🤝 Contributing](#contributing)
   - [⭐️ Show Your Support](#️support)
   - [📝 License](#license)
 
 <!-- PROJECT REQUIREMENTS -->
 
-# 📖 Hello Rails Back-End <a name="about-project"></a>
+# 📖 Hello Rails Back-End <a name="integration-with-hello-rails-back-end"></a>
 
 *Hello Rails Back-End* is a Rails API app that provides random greetings in different laguages through an API endpoint.
 
-## 🛠 Project Requirements <a name="project-requirements"></a>
+## 🛠 Built With <a name="built-with"></a>
+
+### Technologies <a name="technologies"></a>
+
+<details>
+  <summary>Technologies</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+    <li><a href="https://reactjs.org/">React</a></li>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+  </ul>
+</details>
+<details>
+<summary>Linters</summary>
+  <ul>
+    <li><a href="https://rubocop.org/">Rubocop</a></li>
+    <li><a href="https://eslint.org/">ESlint</a></li>
+    <li><a href="https://stylelint.io/">Stylelint</a></li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- [x] *Combining Ruby on Rails and React*
+- [x] *Creating an API for Random Greetings*
+- [x] *Managing State with Redux*
+- [x] *Clear and Organized Documentation*
+- [x] *Checking Code Quality with Linting*
+- [x] *Using a Postgres Database*
+- [x] *Tracking Changes with Git*
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🏁 Project Requirements <a name="project-requirements"></a>
 
 - Create a Rails API app called 'hello-rails-back-end'.
 - Initialize the project with Git.
 - Set up a Postgres database and create a table for storing messages.
 - Populate the table with 5 different greetings. This one has MANY MORE!
 - Create an API endpoint that selects a random greeting from the table.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🔗 Integration with Hello Rails Front-End <a name="integration-with-hello-rails-front-end"></a>
 
@@ -105,9 +143,9 @@ The API will be accessible at `http://localhost:3000/hello/index`.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Issues <a name="issues"></a>
+## 🔭 Future Features <a name="future-features"></a>
 
-Find a bug or have a feature request? [Open a new issue](https://github.com/grauJavier/hello-rails-back-end/issues) here on GitHub.
+- [ ] *EVEN MORE Greetings!*
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
